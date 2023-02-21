@@ -1,0 +1,10 @@
+.main {
+    height: 100vh;
+    place-items: center;
+    display: grid;
+    background: black;
+    color: white;
+}
+.main .questionSection{
+    margin: 4px 0;
+}

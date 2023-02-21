@@ -1,38 +1,104 @@
 export const questions = [
     {
-        questionText: 'What is the capital of France?',
+        questionText: 'What is a section of DNA that codes for a protein called??',
         answerOptions: [
-            { answerText: 'New York', isCorrect: false },
-            { answerText: 'London', isCorrect: false },
-            { answerText: 'Paris', isCorrect: true },
-            { answerText: 'Dublin', isCorrect: false },
+            { answerText: 'Chromosome', isCorrect: false },
+            { answerText: 'Gene', isCorrect: true },
+            { answerText: 'Allele', isCorrect: false },
+            { answerText: 'Plasmid', isCorrect: false },
         ],
     },
     {
-        questionText: 'Who is CEO of Tesla?',
+        questionText: 'Which of these has not undergone selective breeding?',
         answerOptions: [
-            { answerText: 'Jeff Bezos', isCorrect: false },
-            { answerText: 'Elon Musk', isCorrect: true },
-            { answerText: 'Bill Gates', isCorrect: false },
-            { answerText: 'Tony Stark', isCorrect: false },
+            { answerText: 'Highland cows', isCorrect: false },
+            { answerText: 'Broccoli', isCorrect: true },
+            { answerText: 'Dolly the sheep', isCorrect: false },
+            { answerText: 'German shepherd dogs', isCorrect: false },
         ],
     },
     {
-        questionText: 'The iPhone was created by which company?',
+        questionText: 'Which blood groups are codominant?',
         answerOptions: [
-            { answerText: 'Apple', isCorrect: true },
-            { answerText: 'Intel', isCorrect: false },
-            { answerText: 'Amazon', isCorrect: false },
-            { answerText: 'Microsoft', isCorrect: false },
+            { answerText: 'IA and IB', isCorrect: true },
+            { answerText: 'IA and IO', isCorrect: false },
+            { answerText: '	IB and IO', isCorrect: false },
+            { answerText: '	IA and IA', isCorrect: false },
         ],
     },
     {
-        questionText: 'How many Harry Potter books are there?',
+        questionText: '. In humans, each cell normally contains ______ of chromosomes.',
         answerOptions: [
-            { answerText: '1', isCorrect: false },
-            { answerText: '4', isCorrect: false },
-            { answerText: '6', isCorrect: false },
-            { answerText: '7', isCorrect: true },
+            { answerText: '	11 pairs', isCorrect: false },
+            { answerText: '23 pairs', isCorrect: true },
+            { answerText: '	43 pairs', isCorrect: false },
+            { answerText: '32 pairs', isCorrect: false },
+           
+        ],
+    },
+    {
+        questionText: 'Which of these is a correct type of mutation?',
+        answerOptions: [
+            { answerText: '	Addition', isCorrect: false },
+            { answerText: '	Polymerase', isCorrect: false },
+            { answerText: 'Transcription', isCorrect: false },
+            { answerText: 'Substitution', isCorrect: true },
+        ],
+    },
+    {
+        questionText: '______ explained genetic disorders such as alkaptonuria and albinism.',
+        answerOptions: [
+            { answerText: 'Recessive inheritance has', isCorrect: true },
+            { answerText: '	Dominant genes have', isCorrect: false },
+            { answerText: '	X chromosomes', isCorrect: false },
+            { answerText: 'Y chromosomes', isCorrect: false },
+            
+        ],
+    },
+    {
+        questionText: 'The ______ is the set of observable characteristics and is the sum of genetic and environmental effects.',
+        answerOptions: [
+            { answerText: '	neither genotype or phenotype', isCorrect: false },
+            { answerText: '	both genotype and phenotype', isCorrect: false },
+            { answerText: 'Phenotype', isCorrect: true },
+            { answerText: 'Genotype', isCorrect: false },
+          
+        ],
+    },
+    {
+        questionText: 'Which of these is a correct type of mutation?',
+        answerOptions: [
+            { answerText: '	Addition', isCorrect: false },
+            { answerText: '	Polymerase', isCorrect: false },
+            { answerText: 'Transcription', isCorrect: false },
+            { answerText: 'Substitution', isCorrect: true },
+        ],
+    },
+    {
+        questionText: 'Which of these is a correct type of mutation?',
+        answerOptions: [
+            { answerText: '	Addition', isCorrect: false },
+            { answerText: '	Polymerase', isCorrect: false },
+            { answerText: 'Transcription', isCorrect: false },
+            { answerText: 'Substitution', isCorrect: true },
+        ],
+    },
+    {
+        questionText: 'Which of these is a correct type of mutation?',
+        answerOptions: [
+            { answerText: '	Addition', isCorrect: false },
+            { answerText: '	Polymerase', isCorrect: false },
+            { answerText: 'Transcription', isCorrect: false },
+            { answerText: 'Substitution', isCorrect: true },
+        ],
+    },
+    {
+        questionText: 'Which of these is a correct type of mutation?',
+        answerOptions: [
+            { answerText: '	Addition', isCorrect: false },
+            { answerText: '	Polymerase', isCorrect: false },
+            { answerText: 'Transcription', isCorrect: false },
+            { answerText: 'Substitution', isCorrect: true },
         ],
     },
 ];

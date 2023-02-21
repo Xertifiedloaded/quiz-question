@@ -1,9 +1,9 @@
 import { useContext } from 'react'
+import classes from './quiz.module.css'
 import { questions } from '../../constant';
 import { userContext } from '../../mainLayout/mainLayout';
 const Quiz = () => {
     const { currentQuestion, setCurrentQuestion, showScore, score, setScore, setShowScore } = useContext(userContext)
-    
     const handleAnswerOptionClick = (isCorrect) => {
         if (isCorrect) {
             setScore(score + 1);
@@ -17,27 +17,30 @@ const Quiz = () => {
         }
     };
     return (
-        <div className='app'>
-            {showScore ? (
-                <div className='score-section'>
-                    You scored {score} out of {questions.length}
-                </div>
-            ) : (
-                <>
-                    <div className='question-section'>
-                        <div className='question-count'>
-                            <span>Question {currentQuestion + 1}</span>/{questions.length}
+        <div className={classes.main}>
+         
+            <div className={classes.App}>
+                {showScore ? (
+                    <div className={classes.scoreSection}>
+                        You scored <span>{score} </span> out of {questions.length}
+                    </div>
+                ) : (
+                        <>
+                        <div className={classes.questionSection}>
+                            <div className={classes.questionCount}>
+                                <span>Question {currentQuestion + 1}</span>/{questions.length}
+                            </div>
+                            <div className={classes.questionText}>{questions[currentQuestion].questionText}</div>
                         </div>
-                        <div className='question-text'>{questions[currentQuestion].questionText}</div>
-                    </div>
-                    <div className='answer-section'>
-                        {questions[currentQuestion].answerOptions.map((answerOption) => (
-                            <button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
-                        ))}
-                    </div>
-                </>
-            )}
-        </div>
+                        <div className={classes.answerSection}>
+                            {questions[currentQuestion].answerOptions.map((answerOption) => (
+                                <button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+                            ))}
+                        </div>
+                    </>
+                )}
+            </div>
+     </div>
     )
 }
 
