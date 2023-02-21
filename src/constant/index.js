@@ -75,30 +75,31 @@ export const questions = [
         ],
     },
     {
-        questionText: 'Which of these is a correct type of mutation?',
+        questionText: ' DNA replication can be described as ',
         answerOptions: [
+            { answerText: '. Semiconservative', isCorrect: true },
             { answerText: '	Addition', isCorrect: false },
-            { answerText: '	Polymerase', isCorrect: false },
-            { answerText: 'Transcription', isCorrect: false },
-            { answerText: 'Substitution', isCorrect: true },
+            { answerText: '	Conservative', isCorrect: false },
+            { answerText: 'Degenerative', isCorrect: false },
+            
         ],
     },
     {
-        questionText: 'Which of these is a correct type of mutation?',
+        questionText: 'Which of the following is an additional use of the gel electrophoresis technique?',
         answerOptions: [
-            { answerText: '	Addition', isCorrect: false },
-            { answerText: '	Polymerase', isCorrect: false },
-            { answerText: 'Transcription', isCorrect: false },
-            { answerText: 'Substitution', isCorrect: true },
+            { answerText: '	 To amplify genes', isCorrect: false },
+            { answerText: '	To transform E. coli', isCorrect: false },
+            { answerText: 'To ligate DNA fragments', isCorrect: false },
+            { answerText: ' To separate proteins in a mixture', isCorrect: true },
         ],
     },
     {
-        questionText: 'Which of these is a correct type of mutation?',
+        questionText: ' Which of the following is the most likely explanation for a high rate of crossing-over between two genes? ',
         answerOptions: [
-            { answerText: '	Addition', isCorrect: false },
-            { answerText: '	Polymerase', isCorrect: false },
-            { answerText: 'Transcription', isCorrect: false },
-            { answerText: 'Substitution', isCorrect: true },
+            { answerText: '	The two genes code for the same protein.', isCorrect: false },
+            { answerText: '	The two genes are sex-linked.', isCorrect: false },
+            { answerText: 'The two genes are both located near the centromere.', isCorrect: false },
+            { answerText: 'The two genes are far apart on the same chromosome.', isCorrect: true },
         ],
     },
 ];
